@@ -82,7 +82,8 @@ section{scroll-margin-top:76px}
 }
 .top__bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo__mark{color:var(--dark);line-height:0}
+.logo__mark{line-height:0}
+.logo__mark img{display:block;height:20px;width:auto}
 .logo__word{font-family:"Cormorant",Georgia,serif;font-weight:600;font-size:20px;letter-spacing:.02em}
 .logo__word em{font-style:normal;color:var(--accent-hi)}
 .top__nav{display:flex;gap:clamp(14px,2.6vw,30px)}
